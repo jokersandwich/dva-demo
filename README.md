@@ -5,8 +5,8 @@
 文件启动顺序：
 npm start => package.json => .roadhogrc (脚手架) => index.js => router.js => IndexPage.js (首页)
 
-直接推送：
-`dva new xxx` 创建的文件夹，直接推送到 github，先删除 `package.json` 中的 `"precommit": "npm run lint"` （通过github创建的文件夹，推送没有这个问题）
+commit 错误：
+`dva new xxx` 创建的文件夹，commit 之前，先删除 `package.json` 中的 `"precommit": "npm run lint"` （通过github创建的文件夹，commit 没有这个问题）
 
 数据流向：
 
