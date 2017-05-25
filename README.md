@@ -5,8 +5,8 @@
 文件启动顺序：
 npm start => package.json => .roadhogrc (脚手架) => index.js => router.js => IndexPage.js (首页)
 
-commit 错误：
-`dva new xxx` 创建的文件夹，commit 之前，先删除 `package.json` 中的 `"precommit": "npm run lint"` （通过github创建的文件夹，commit 没有这个问题）
+提交(commit)错误：
+`dva new xxx` 创建的文件夹，提交之前，先删除 `package.json` 中的 `"precommit": "npm run lint"` （通过github创建的文件夹，提交没有这个问题）
 
 数据流向：
 
