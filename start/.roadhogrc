@@ -6,12 +6,10 @@
         "dva-hmr",
         "transform-runtime"
       ]
-    },
-    "production": {
-      "extraBabelPlugins": [
+    }
+  },
+  "extraBabelPlugins": [
         "transform-runtime",
         ["import", { "libraryName": "antd", "style": "css" }]
-      ]
-    }
-  }
+  ]
 }
