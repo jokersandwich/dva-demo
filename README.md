@@ -6,7 +6,7 @@
 npm start => package.json => .roadhogrc (脚手架) => index.js => router.js => IndexPage.js (首页)
 
 直接推送：
-`dva new xxx` 创建的文件夹，要推送到 github，先删除 `package.json` 中的 `"precommit": "npm run lint"`
+`dva new xxx` 创建的文件夹，要想推送到 github，先删除 `package.json` 中的 `"precommit": "npm run lint"`
 
 数据流向：
 
