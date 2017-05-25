@@ -6,7 +6,6 @@
 npm start => package.json => .roadhogrc(脚手架) => index.js => router.js => IndexPage.js(首页)
 
 直接推送：
-
 dva new xxx创建的文件夹，可以直接推送到github。（通常本地文件夹无法直接推送，需要在github上通过新文件生成文件夹，clone到本地使用）
 
 数据流向：
