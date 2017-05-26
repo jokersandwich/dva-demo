@@ -1,6 +1,6 @@
 # start
 
-安装dva-cli
+#### 安装dva-cli
 
 `$ npm install dva-cli -g`
 
@@ -8,17 +8,17 @@
 
 `0.7.0`
 
-创建新应用
+#### 创建新应用
 
 `$ dva new dva-quickstart`
 
 `$ cd dva-quickstart`
 
-安装antd
+#### 安装antd
 
 `$ npm install antd babel-plugin-import --save`
 
-配置antd
+#### 配置antd
 
     //.roadhogrc
     {
@@ -37,7 +37,7 @@
       ]
     }
 
-生成新文件
+#### 生成新文件
 
 `$ dva g route products`
 
@@ -45,13 +45,12 @@
 
 `$ dva g component ProductList`
 
-编写文件
+#### 编写文件
 
-见<a src="https://ant.design/docs/react/practical-projects-cn">官网</a>
-
+见<a src="https://ant.design/docs/react/practical-projects-cn">官网</a> 
 `components/ProductList.js`, `models/products.js`, `routes/Products.js`
 
-数据写入
+#### 数据写入
 
     //index.js
     const app = dva({
