@@ -16,7 +16,7 @@
 
 #### 安装antd
 
-`$ npm install antd babel-plugin-import --save`
+    $ npm install antd babel-plugin-import --save
 
 #### 配置antd
 
