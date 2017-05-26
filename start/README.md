@@ -2,17 +2,17 @@
 
 #### 安装dva-cli
 
-`$ npm install dva-cli -g`
+    $ npm install dva-cli -g
 
-`$ dva -v`
+    $ dva -v
 
-`0.7.0`
+    0.7.0
 
 #### 创建新应用
 
-`$ dva new dva-quickstart`
+    $ dva new dva-quickstart
 
-`$ cd dva-quickstart`
+    $ cd dva-quickstart
 
 #### 安装antd
 
@@ -39,11 +39,11 @@
 
 #### 生成新文件
 
-`$ dva g route products`
+    $ dva g route products
 
-`$ dva g model products`
+    $ dva g model products
 
-`$ dva g component ProductList`
+    $ dva g component ProductList
 
 #### 编写文件
 
