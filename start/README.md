@@ -47,7 +47,7 @@
 
 #### 编写文件
 
-见<a src="https://ant.design/docs/react/practical-projects-cn">antd官网</a> 
+见<a href="https://ant.design/docs/react/practical-projects-cn">官网</a> 
 `components/ProductList.js`, `models/products.js`, `routes/Products.js`
 
 #### 数据写入
