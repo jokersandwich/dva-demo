@@ -11,11 +11,11 @@ npm start => package.json => .roadhogrc (脚手架) => index.js => router.js => 
 
 快速生成新文件：
 
-    $ dva g route products
+    $ dva g route xxx
 
-    $ dva g model products
+    $ dva g model xxx
 
-    $ dva g component ProductList
+    $ dva g component Xxx
 
 #### BUG
 
